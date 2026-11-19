@@ -1,0 +1,1063 @@
+{
+  "game": "Grand Theft Auto VI",
+  "platform": "PlayStation 5",
+  "list": "The official 55 trophies, 1 platinum, 2 gold, 6 silver, 46 bronze, 28 hidden",
+  "note": "Names, descriptions and grades are the official list as Exophase and PSNProfiles published it. Every guide below is written for this atlas in our own words; sources are cited beside each guide. Where a trophy's unlock method was not yet confirmed at launch, the guide says so plainly instead of inventing a step.",
+  "trophies": [
+    {
+      "id": 1,
+      "name": "Vice Got a Price!",
+      "description": "Congratulations! You're a Leonida Legend.",
+      "grade": "platinum",
+      "hidden": false,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "The platinum pops the moment the other 54 trophies are all earned. Nothing here needs online play or DLC: PowerPyx lists all 55 trophies as offline and single-player, and puts the whole run at roughly 200 hours at a 4/10 difficulty. Work through the six roadmap stages in this atlas in order and the platinum is the last thing you collect, not a separate grind.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 6,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 2,
+      "name": "Just Like Paradise",
+      "description": "Complete Gone Fishing.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Play the opening mission, Gone Fishing, in Chapter 1. PowerPyx lists it as an automatic story trophy that cannot be missed: just follow the mission's prompts to its end and it unlocks on completion. It is the first story trophy of the run, so tick it and move on.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 1,
+      "chapter": "Chapter 1",
+      "mission": "Gone Fishing"
+    },
+    {
+      "id": 3,
+      "name": "Paradise Lost",
+      "description": "Complete Chapter 1.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Finish every story mission in Chapter 1. The story is divided into 5 chapters and takes around 60 to 80 hours in total, according to PowerPyx. Before you leave Chapter 1, stop and do the one thing this atlas flags as potentially missable: Lucia's balcony meditation for Positive Mental Attitude, which is reported to disappear once the chapter ends.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 1,
+      "chapter": "Chapter 1",
+      "mission": null
+    },
+    {
+      "id": 4,
+      "name": "T**s Ass Drug Money",
+      "description": "Complete Chapter 2.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Finish every story mission in Chapter 2. This is a plain chapter-completion trophy: no side content is needed for it, and it cannot be missed as long as you keep playing the story. Most of the list opens up from here, since several trophies need Jason and Lucia together, which the guides note becomes available in Chapter 2.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": "Chapter 2",
+      "mission": null
+    },
+    {
+      "id": 5,
+      "name": "Vice City, Baby!",
+      "description": "Complete Chapter 3.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Finish every story mission in Chapter 3. Like the other chapter trophies it is automatic and unmissable. Chapter 3 is also where the robbery trophies start to open up, so once the chapter trophy pops, check the clean-up stage of the roadmap for the heist-style trophies that are now available.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": "Chapter 3",
+      "mission": null
+    },
+    {
+      "id": 6,
+      "name": "Top Of The World, Ma",
+      "description": "Complete Chapter 4.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Finish every story mission in Chapter 4. Automatic and unmissable, like the other chapter trophies. By the end of this chapter you should have most side-character strands well under way; if any of Andy, Kenton, Billy, Randy or Tyrone still has missions open, finish them before the finale so their final-mission trophies are not left for post-game clean-up.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": "Chapter 4",
+      "mission": null
+    },
+    {
+      "id": 7,
+      "name": "You Gotta Know When to Get Off",
+      "description": "Complete the final mission.",
+      "grade": "gold",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete the final story mission. It is one of only two gold trophies in the list. PowerPyx notes there is no mission replay in GTA VI, so keep a manual save from just before the final mission: free-roam continues after the story, but a save from before the finale is cheap insurance if anything around the ending behaves unexpectedly.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 1,
+      "chapter": "Chapter 5",
+      "mission": "Final mission"
+    },
+    {
+      "id": 8,
+      "name": "Trust",
+      "description": "Complete Breakfast Run.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete the story mission Breakfast Run. It is an automatic story trophy: play the mission through to its end and it unlocks. Story missions arrive in a fixed order, so if it has not appeared yet, keep working through the current chapter's missions.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": null,
+      "mission": "Breakfast Run"
+    },
+    {
+      "id": 9,
+      "name": "Break the Bank",
+      "description": "Complete The Cartel Heist.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete the story mission The Cartel Heist. Automatic on mission completion and unmissable. Heist-style missions are good practice for the robbery trophies in the clean-up stage, which ask you to rob bank vaults, armored trucks and shops and then escape.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": null,
+      "mission": "The Cartel Heist"
+    },
+    {
+      "id": 10,
+      "name": "Family Matters",
+      "description": "Complete Child's Play.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete the story mission Child's Play. Automatic on mission completion and unmissable. If the mission has not shown up yet, continue the story: mission trophies unlock in the story's own order and cannot be done out of sequence.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": null,
+      "mission": "Child's Play"
+    }
+,
+    {
+      "id": 11,
+      "name": "DWNFALL",
+      "description": "Complete Headliners.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete the story mission Headliners. Automatic on mission completion and unmissable. The mission's name is a spoiler in itself, which is why PlayStation hides this trophy until you earn it; the spoiler setting in this atlas hides it the same way until you tick it.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": null,
+      "mission": "Headliners"
+    },
+    {
+      "id": 12,
+      "name": "Hi-Jacked",
+      "description": "Complete VCIA Takedown.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete the story mission VCIA Takedown, set around Vice City International Airport. Automatic on mission completion and unmissable. The airport is also the setting of the Catch Me If You Can trophy, so once this mission is done, that free-roam trophy is worth attempting while you know the airport layout.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": null,
+      "mission": "VCIA Takedown"
+    },
+    {
+      "id": 13,
+      "name": "Snow Storm",
+      "description": "Complete Operation Savage Glory.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete the story mission Operation Savage Glory. Automatic on mission completion and unmissable. It is one of the later mission trophies, so expect it near the end of the story run, in the run-up to the final mission.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 1,
+      "chapter": null,
+      "mission": "Operation Savage Glory"
+    },
+    {
+      "id": 14,
+      "name": "A Long Road",
+      "description": "Attain 100% Completion.",
+      "grade": "gold",
+      "hidden": false,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Reach 100% on the game's in-game completion checklist. Both PowerPyx and KeenGamer rank this the hardest trophy, but the thresholds are lenient: PowerPyx says the checklist is closer to 60% of true completion, needing 70 of 80 challenges, 300 of 397 stunts, 200 of 277 vehicles, 100 of 255 animals studied through binoculars, and all 42 Shooting Range gold medals. Finish the story first, then work the checklist in the clean-up stage; the checklist itself tells you what is left.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"},
+        {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+      ],
+      "roadmapStage": 6,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 15,
+      "name": "Cunning Stunts",
+      "description": "Complete 250 Stunts.",
+      "grade": "silver",
+      "hidden": false,
+      "count": 250,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete any 250 of the 397 stunts across Leonida; the 100% checklist needs 300, so keep going past this trophy if you are chasing the platinum. PowerPyx breaks the 397 down into 130 stunt jumps over ramps, 202 flights under bridges, 40 knife flights between buildings, and 25 base jumps with a parachute. Mix the easy ramp jumps and bridge flights early, and save the knife flights for when you are comfortable flying low between buildings.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 16,
+      "name": "Master of None",
+      "description": "Try each type of activity once.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 9,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Try each of the 9 activity types once; the trophy tracker itself counts 9 types, according to PowerPyx. Do one of everything the game offers as an activity — a race, a shooting range challenge, a drone race, fishing, an arcade game, bowling, a stunt, a meditation spot and a challenge — and the trophy pops as soon as the ninth type is sampled. It is a sampler, not a mastery trophy: one try each is enough.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 17,
+      "name": "The Shootist",
+      "description": "Earn a gold medal in all Shooting Range challenges.",
+      "grade": "silver",
+      "hidden": false,
+      "count": 42,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Earn a gold medal in all 42 Shooting Range challenges. This is one of the two requirements the 100% checklist demands in full — all 42 golds, no partial credit — so treat it as a core platinum task, not a side trophy. Work through the ranges one at a time, learn each challenge's target pattern before chasing the gold time or score, and return to the hardest ones once your aim and weapon handling are upgraded.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"},
+        {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 18,
+      "name": "Top Fun",
+      "description": "Win a Top Fun Drone Race at every location.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 14,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Win a Top Fun drone race at each of the 14 Top Fun locations. KeenGamer notes there are also 42 drone time trials across those same 14 locations, and all 42 are needed for the 100% checklist, so race and time-trial the same venues together. Learn each course's turns on a slow first run, then race it for the win.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 19,
+      "name": "Earn Cash, Not Kudos",
+      "description": "Win 20 different races.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 20,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Win 20 different races — the same race won twice only counts once, so you need 20 distinct race events. KeenGamer lists 40 races in total, with 30 wins needed for the 100% checklist, so keep racing past this trophy. Vary the vehicle class and the route: a race you keep losing in one class may be easy in another.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 20,
+      "name": "Baited My Tackle",
+      "description": "Beat Cal in a fishing challenge.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Beat Cal in a fishing challenge. Cal is the fishing rival the game pairs you against; take the challenge when it is offered and out-fish him on the day's catch. Fishing is also one of the 9 activity types, so this trophy doubles as progress toward Master of None if you have not sampled fishing yet.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    }
+,
+    {
+      "id": 21,
+      "name": "Stick Fiddler",
+      "description": "Complete an arcade game.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete one arcade game at any arcade cabinet. Any cabinet and any game counts — pick the shortest or easiest one you find and play it through to its end screen. It also samples one of the 9 activity types for Master of None, so do it early in the activities stage.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 22,
+      "name": "Road to Rehabilitation",
+      "description": "Complete the final mission for Andy.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete Andy's final mission. Side-character strands unlock as you meet each character in free-roam and the story; work through all of Andy's missions in order and the trophy pops on the last one. The five side-character finals (Andy, Kenton, Billy, Randy, Tyrone) are all story-adjacent and unmissable as long as you finish each strand, but do them before the finale so none is left behind.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 2,
+      "chapter": null,
+      "mission": "Andy's final mission"
+    },
+    {
+      "id": 23,
+      "name": "This Was No Boat Accident",
+      "description": "Complete the final mission for Kenton.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete Kenton's final mission. Work through Kenton's whole strand in order; the trophy unlocks on the last mission. Kenton's strand is water-themed, as the name hints, so expect boats to feature — keep a fast boat handy when his missions appear.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 2,
+      "chapter": null,
+      "mission": "Kenton's final mission"
+    },
+    {
+      "id": 24,
+      "name": "The Lone Rider",
+      "description": "Complete the final mission for Billy.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete Billy's final mission. Work through Billy's strand in order; the trophy pops on the last mission. The name suggests riding solo — likely a bike — so keep a motorcycle you like in your garage for his missions.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 2,
+      "chapter": null,
+      "mission": "Billy's final mission"
+    },
+    {
+      "id": 25,
+      "name": "Strangers & Freaks",
+      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+      "grade": "silver",
+      "hidden": false,
+      "count": 8,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete 8 mission strands for strangers across Leonida. Stranger encounters appear as you explore the state; each strand is a short chain of missions for one stranger, and the trophy needs 8 full strands, not 8 single missions. Explore the map between story chapters, answer every stranger marker you pass, and finish each chain before starting the next so none is left half-done.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 2,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 26,
+      "name": "Supply & Demand",
+      "description": "Complete the final mission for Randy.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete Randy's final mission. Work through Randy's strand in order; the trophy pops on the last mission. The name points to a supply-run strand, so expect fetch-and-deliver missions — keep a fast, sturdy vehicle ready for his jobs.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 2,
+      "chapter": null,
+      "mission": "Randy's final mission"
+    },
+    {
+      "id": 27,
+      "name": "Spin On This!",
+      "description": "Complete the final mission for Tyrone.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "story",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete Tyrone's final mission. Work through Tyrone's strand in order; the trophy pops on the last mission. The name hints at spinning — likely a DJ or driving strand — so follow the strand's own prompts rather than guessing the theme, and finish it before the story finale.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 2,
+      "chapter": null,
+      "mission": "Tyrone's final mission"
+    },
+    {
+      "id": 28,
+      "name": "Positive Mental Attitude",
+      "description": "Meditate at every spot across Leonida.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 18,
+      "kind": "collectible",
+      "missable": true,
+      "missableWhy": "Potentially missable: PowerPyx and GTABase both flag this as the only trophy that may be missable. The first meditation is Lucia's on the balcony at Jason's house in Chapter 1, and it is reported to disappear once Chapter 1 ends. Do it before leaving Chapter 1.",
+      "guide": "Meditate at all 18 spots across Leonida. This is the one trophy the launch guides flag as potentially missable: PowerPyx and GTABase both say the first meditation, Lucia's on the balcony at Jason's house in Chapter 1, is reported to disappear once that chapter ends, and the game has no mission replay — so do that first meditation before you leave Chapter 1, and keep a manual save at the start of every chapter. KeenGamer adds that only 15 of the 18 spots are needed for the 100% checklist, but the trophy itself needs all 18, so sweep the remaining spots in the collectibles stage.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"},
+        {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+      ],
+      "roadmapStage": 3,
+      "chapter": "Chapter 1",
+      "mission": null
+    },
+    {
+      "id": 29,
+      "name": "Fair Game",
+      "description": "Hunt a unique animal for Bret.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Hunt a unique animal for Bret. Bret's strand points you at one specific animal; track it, hunt it, and bring the result back to Bret. Hunting is also how the 100% checklist's animal-study goal works — PowerPyx says 100 of 255 animals must be studied through binoculars — so study animals with binoculars as you hunt, and this strand doubles as checklist progress.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 2,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 30,
+      "name": "Don't Touch My Deck",
+      "description": "Complete 3 Collectible Card sets.",
+      "grade": "silver",
+      "hidden": false,
+      "count": 3,
+      "kind": "collectible",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete any 3 collectible card sets. KeenGamer lists 15 card sets in total, so you only need a fifth of them for this trophy — pick the sets whose cards cluster in areas you already visit and finish those first. Cards are found across Leonida, so sweep them during the collectibles stage rather than hunting one set at a time from the start.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+      ],
+      "roadmapStage": 3,
+      "chapter": null,
+      "mission": null
+    }
+,
+    {
+      "id": 31,
+      "name": "You WAiNKer!",
+      "description": "WAiNK It at 100 locations.",
+      "grade": "silver",
+      "hidden": false,
+      "count": 100,
+      "kind": "collectible",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Use the WAiNK It action at 100 different locations across Leonida. WAiNK It is a location-based interaction — the game counts distinct spots, so revisiting the same place does not add to the total. Fold it into your exploration: WAiNK at every new landmark, viewpoint and district you pass through while sweeping the map for The Goodtime State.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 3,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 32,
+      "name": "One Last Thing",
+      "description": "Complete 50 Challenges.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 50,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Complete any 50 of the 80 challenges in the game. The 100% checklist needs 70 of 80, so treat 50 as a milestone on the way to 70, not the finish line. Challenges are scattered across activities — stunts, races, shooting, exploration — so clear the easy ones in every category first and leave the 10 hardest for last, exactly as PowerPyx advises for the checklist.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"},
+        {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 33,
+      "name": "Hot Together",
+      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "With your partner beside you, build a 4-star wanted level and then lose it completely and escape. Do it in the open countryside, away from tight city streets: get the wanted level up, then break line of sight, switch to a fast car, and stay out of the search area until the stars clear with your partner still with you. Partner trophies need Jason and Lucia together, which the guides note opens up in Chapter 2.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": "Chapter 2",
+      "mission": null
+    },
+    {
+      "id": 34,
+      "name": "Retail Therapy",
+      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "With your partner, rob 3 shops in a row without the wanted level ever dropping — the streak only counts while the wanted level stays live between robberies. Plan a route of three close-together shops in advance, rob each fast, and drive straight to the next without stopping to fight police. If the wanted level clears, the streak resets and you start again.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": "Chapter 2",
+      "mission": null
+    },
+    {
+      "id": 35,
+      "name": "Whip It Good",
+      "description": "Discover 100 vehicles.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 100,
+      "kind": "collectible",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Discover 100 vehicles. The 100% checklist raises the bar to 200 of the 277 base-model vehicles, according to PowerPyx, so keep discovering past this trophy. Drive everything you see — parked cars, traffic, boats and bikes all count toward discovery — and check the in-game progress menu to see which vehicle types you are still missing.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 3,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 36,
+      "name": "Gunslinger",
+      "description": "Take down 5 enemies in a single use of Combat Focus.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 5,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Take down 5 enemies during one single use of Combat Focus. Set it up deliberately: find a spot with at least 5 enemies grouped together, trigger Combat Focus, and work through them fast before the effect ends. A mission or gang hideout with clustered enemies is a better attempt than a random street fight — and you can retry as often as you like, since it is not missable.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 37,
+      "name": "Catch Me If You Can",
+      "description": "Make an unscheduled departure at VCIA.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Make an unscheduled departure at VCIA, Vice City International Airport: take a plane and leave the airport without following a scheduled flight. Grab a plane on the tarmac and take off. The airport is introduced by the VCIA Takedown story mission, so attempt this in free-roam after that mission, when you already know the layout.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 38,
+      "name": "Challenging Tank",
+      "description": "Kinda hot in these Rhinos.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "The description is a joke about Rhino tanks, and the exact trigger was not yet confirmed at launch — PowerPyx lists trophies of this kind as not yet known. The sensible read of the description is to get into a Rhino tank and use it: steal one when the military responds at high wanted levels, or find one at a military site, then drive and fight in it until the trophy pops. Treat any specific step beyond that as unconfirmed until a guide verifies it.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 39,
+      "name": "Sneakthief",
+      "description": "Rob a jewelry store without being detected.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Rob a jewelry store without being detected at all. Go in quiet: move slowly, stay out of staff and camera sightlines, take the goods and leave before any alarm. If anyone spots you, the attempt fails — leave, let the heat die down, and try again. It is a stealth run, so leave the loud weapons and the getaway chaos for the other robbery trophies.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 40,
+      "name": "Maximum Withdrawal",
+      "description": "Rob 5 Bank Vaults and escape.",
+      "grade": "silver",
+      "hidden": false,
+      "count": 5,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Rob 5 bank vaults and escape after each one. Each vault needs its own robbery and its own clean escape — the count only grows when you get away. Plan a fast getaway car before you go in, and do the vaults one at a time across the clean-up stage rather than chaining them while the police are already hunting you.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    }
+,
+    {
+      "id": 41,
+      "name": "A Classic Blitz Play",
+      "description": "Rob an Armored Truck and escape.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Rob one armored truck and escape. Armored trucks drive set routes around Leonida — intercept one, stop it, take the cash, and break away before the police close in. The name nods to the classic GTA V blitz heist, but the trophy itself is a single free-roam robbery: one truck, one escape.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 42,
+      "name": "The Goodtime State",
+      "description": "Explore all of Leonida.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "collectible",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Explore every area of Leonida until the map's fog is gone. The map starts partly hidden, and the trophy counts once no area is left unexplored. The fastest way, per the launch guides, is to fly: get a plane early — the guides note one is available from Chapter 1 — and sweep the whole state from the air, dipping low over any patch of map that is still fogged.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"},
+        {"name": "GTA Six How — GTA 6 Trophies and Achievements", "url": "https://gtasix.how/trophies/"}
+      ],
+      "roadmapStage": 3,
+      "chapter": "Chapter 1",
+      "mission": null
+    },
+    {
+      "id": 43,
+      "name": "Pest Control",
+      "description": "Rob an Illegal Operation belonging to each gang.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Rob one illegal operation belonging to each gang in Leonida. Gangs run their own illegal operations around the state; hit one operation per gang and the trophy pops once every gang has been robbed. Keep a note of which gangs you have done — the in-game progress view is the reliable record — and sweep the remaining gangs' territory in the clean-up stage.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 44,
+      "name": "In The Beginning…",
+      "description": "Enjoy a cocktail with a view on Ocean Beach.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Enjoy a cocktail with a view on Ocean Beach. The exact trigger was not yet known at launch — PowerPyx lists this trophy among the not-yet-known ones — so the guide can only follow the description: find a bar or cocktail spot on Ocean Beach with a view over the water, order a cocktail there, and let the scene play. Do not trust any specific bar name until a guide verifies it in the game.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 45,
+      "name": "Capital Offense",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Smash your way out of a vehicle showroom in classic style. The exact trigger was not yet known at launch — PowerPyx lists this trophy among the not-yet-known ones. The description points to driving a car straight through a showroom's glass front: pick a vehicle showroom, get a car inside or lined up at its front, and drive out through the glass. Treat any named showroom as unconfirmed until a guide verifies it.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 46,
+      "name": "Let’s Go Bowling",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Go to the Kolt & Associates bowling alley and bowl — the description's 'follow-through' points to completing a bowling game there. Bowling is also one of the 9 activity types for Master of None, so this trophy and that sampler overlap. Play a full game at that alley and the trophy should pop at the end of it.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 4,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 47,
+      "name": "Personal Best",
+      "description": "A partnership with mass appeal.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "The description — 'a partnership with mass appeal' — is deliberately vague, and the exact trigger was not yet known at launch; PowerPyx lists trophies of this kind as not yet known. The wording points to a partner activity done in front of a crowd or to a wide audience, most plausibly with Jason and Lucia together. Play partner activities in public places and watch for a crowd reaction; do not trust any specific method until a guide verifies it in the game.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 5,
+      "chapter": "Chapter 2",
+      "mission": null
+    },
+    {
+      "id": 48,
+      "name": "Actions Speak Louder",
+      "description": "Choices made (for better or worse).",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Make choices in the game — the description counts choices made, for better or worse. PlayStation tracks a count behind this trophy, and the trophy pops once you have made enough meaningful choices across the story and side content. There is no wrong choice to fear here: just keep choosing whenever the game asks, in story missions and stranger strands alike, and it will come naturally during a full playthrough.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 49,
+      "name": "Bad Luck, I Guess",
+      "description": "Second time's the charm.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "The description — 'second time's the charm' — says the trophy is about succeeding on a second attempt, and the exact trigger was not yet known at launch; PowerPyx lists trophies of this kind as not yet known. The honest read is to retry something you first failed at and succeed on the second try — a race, a challenge or a mission attempt. Treat any specific event as unconfirmed until a guide verifies it.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 50,
+      "name": "The Truth Is Out There",
+      "description": "What the hell just happened?",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "The description — 'what the hell just happened?' — points to witnessing something strange, and the exact trigger was not yet known at launch; PowerPyx lists this trophy among the not-yet-known ones. Expect a rare, weird world event — the kind of odd sighting GTA games hide off the beaten path — most likely at night or in a remote spot. Explore Leonida's strange corners during the clean-up stage and let it happen rather than forcing a specific spot nobody has verified.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    }
+,
+    {
+      "id": 51,
+      "name": "Ten Pin",
+      "description": "Bowl 'em over with a melee drive-by.",
+      "grade": "bronze",
+      "hidden": true,
+      "count": null,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Knock people over with a melee drive-by — attack with a melee weapon from a moving vehicle, bowling them over like ten pins. The exact count was not yet known at launch; PowerPyx lists this trophy among the not-yet-known ones. Drive slowly past a group of pedestrians, swing the melee weapon from the vehicle, and repeat until the trophy pops. Do it somewhere quiet so the wanted level stays manageable.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 52,
+      "name": "Dime on the Dollar",
+      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 250000,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Earn $250,000 by laundering Marked Bills through your contacts. Marked Bills come from robberies and heists; take them to your laundering contacts and convert them into clean cash, keeping a running total until it reaches $250,000. It pairs naturally with the robbery trophies — rob vaults, trucks and shops, then launder what you took instead of spending the marked bills directly.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 53,
+      "name": "Treat Yo Self",
+      "description": "Spend $100,000 across all shops.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 100000,
+      "kind": "activity",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Spend $100,000 in total across all shops. The count is cumulative across every shop in the game, so just play normally and buy what you need — clothes, food, ammunition and vehicle upgrades all count. If you reach the clean-up stage short of the total, the fastest top-up is vehicle upgrades, which are expensive and useful at the same time.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 54,
+      "name": "Little Boxes",
+      "description": "Purchase all garage properties.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": null,
+      "kind": "collectible",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Purchase every garage property the game offers. Garages are bought through the property market in free-roam; each one needs cash up front, so this trophy is really a money trophy in disguise — the laundering and robbery trophies will fund it. Buy them as they become available rather than leaving them all to the end, since a garage also gives you somewhere to store the vehicles you register for On the Spot.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 5,
+      "chapter": null,
+      "mission": null
+    },
+    {
+      "id": 55,
+      "name": "On the Spot",
+      "description": "Register 10 vehicles to the Scooter Bros app.",
+      "grade": "bronze",
+      "hidden": false,
+      "count": 10,
+      "kind": "collectible",
+      "missable": false,
+      "missableWhy": "",
+      "guide": "Register 10 vehicles to the Scooter Bros app. Find vehicles you like in free-roam, open the Scooter Bros app, and register each one — the count is cumulative, so any ten will do. It pairs with Whip It Good: every vehicle you discover while exploring is a candidate to register, so register the interesting ones as you find them instead of hunting ten at the end.",
+      "sources": [
+        {"name": "Exophase — Grand Theft Auto VI trophies", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"name": "PSNProfiles — Grand Theft Auto VI trophies", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"}
+      ],
+      "roadmapStage": 3,
+      "chapter": null,
+      "mission": null
+    }
+  ]
+}
