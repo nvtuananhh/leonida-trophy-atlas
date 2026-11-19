@@ -1,0 +1,155 @@
+/* Leonida Trophy Atlas — original sunset/vice palette, no game art. */
+:root {
+  --paper: #fff7ec;
+  --card: #fffdf8;
+  --ink: #2b1a2e;
+  --muted: #6d5a68;
+  --line: #ecd9c2;
+  --coral: #e2543a;
+  --coral-dark: #b23a24;
+  --gold: #b8860b;
+  --teal: #0f766e;
+  --plum: #5b2a52;
+  --sunset: linear-gradient(135deg, #ff9a5c 0%, #e2543a 45%, #7a2e6d 100%);
+  --radius: 12px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Iowan Old Style", Palatino, Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+button, input, select { font: inherit; }
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.15; }
+h1 { font-size: 2.4rem; margin: 0.1em 0 0.2em; }
+h2 { font-size: 1.6rem; margin-top: 0; }
+h3 { font-size: 1.15rem; }
+a { color: var(--coral-dark); }
+
+.masthead { background: var(--sunset); color: #fff; padding: 28px 20px 22px; }
+.masthead-inner { max-width: 1180px; margin: 0 auto; }
+.kicker { margin: 0; text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.78rem; opacity: 0.92; }
+.subtitle { max-width: 72ch; margin: 0.4em 0 1em; font-size: 1.05rem; }
+.progress-wrap { background: rgba(0,0,0,0.22); border-radius: var(--radius); padding: 12px 16px; max-width: 640px; }
+.progress-numbers { display: flex; justify-content: space-between; font-weight: bold; }
+.progress-bar { height: 12px; background: rgba(255,255,255,0.35); border-radius: 6px; margin-top: 6px; overflow: hidden; }
+.progress-fill { height: 100%; background: #ffd166; border-radius: 6px; transition: width 0.3s; }
+.grade-counts { margin: 8px 0 0; font-size: 0.9rem; opacity: 0.95; }
+
+.views { display: flex; gap: 8px; max-width: 1180px; margin: 0 auto; padding: 14px 20px 0; }
+.view-tab {
+  border: 2px solid var(--plum); background: transparent; color: var(--plum);
+  padding: 8px 16px; border-radius: 999px; cursor: pointer; font-weight: bold;
+}
+.view-tab.is-active { background: var(--plum); color: #fff; }
+.missable-dot {
+  display: inline-block; min-width: 20px; padding: 0 5px; border-radius: 999px;
+  background: var(--coral); color: #fff; font-size: 0.8rem; text-align: center;
+}
+
+main { max-width: 1180px; margin: 0 auto; padding: 16px 20px 30px; }
+.view { display: none; }
+.view.is-active { display: block; }
+.section-intro { max-width: 78ch; }
+
+.toolbar {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 16px; margin-bottom: 16px;
+}
+.search-label { display: block; font-weight: bold; margin-bottom: 10px; }
+.search-label input {
+  width: 100%; max-width: 520px; margin-left: 8px; padding: 8px 10px;
+  border: 1px solid var(--line); border-radius: 8px; background: #fff;
+}
+.filter-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.filter-btn {
+  border: 1px solid var(--plum); background: #fff; color: var(--plum);
+  padding: 6px 12px; border-radius: 999px; cursor: pointer;
+}
+.filter-btn.is-active { background: var(--plum); color: #fff; }
+.filter-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; margin-bottom: 10px; }
+.filter-row label { font-size: 0.92rem; color: var(--muted); }
+.filter-row select { margin-left: 4px; padding: 6px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+.spoiler-toggle { display: inline-flex; align-items: center; gap: 6px; color: var(--ink); font-weight: bold; cursor: pointer; }
+.save-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.save-row button, .import-label {
+  border: 1px solid var(--coral-dark); background: #fff; color: var(--coral-dark);
+  padding: 7px 12px; border-radius: 8px; cursor: pointer; font-weight: bold;
+}
+.save-row button:hover, .import-label:hover { background: #fdeee8; }
+.save-status { font-size: 0.9rem; color: var(--teal); }
+.filter-note { margin: 10px 0 0; font-size: 0.92rem; color: var(--muted); }
+
+.tracker-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 16px; align-items: start; }
+@media (max-width: 900px) { .tracker-grid { grid-template-columns: 1fr; } }
+.list-count { font-weight: bold; margin: 0 0 10px; }
+.trophy-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.trophy-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px 14px; cursor: pointer;
+}
+.trophy-card.is-selected { border-color: var(--coral); box-shadow: 0 0 0 2px rgba(226,84,58,0.35); }
+.trophy-card.is-earned { background: #f2f7f0; }
+.trophy-top { display: flex; gap: 10px; align-items: baseline; }
+.trophy-check { flex: none; width: 22px; height: 22px; accent-color: var(--teal); cursor: pointer; }
+.trophy-name { font-weight: bold; font-size: 1.05rem; margin: 0; }
+.trophy-card.is-earned .trophy-name { text-decoration: line-through; text-decoration-color: var(--teal); }
+.trophy-desc { margin: 4px 0 6px; color: var(--muted); }
+.trophy-meta { display: flex; flex-wrap: wrap; gap: 6px; font-size: 0.82rem; }
+.badge {
+  display: inline-block; padding: 2px 8px; border-radius: 999px; font-weight: bold;
+  border: 1px solid var(--line); background: #fff;
+}
+.badge-platinum { background: #e8f4fd; border-color: #7fb8dd; color: #14567e; }
+.badge-gold { background: #fdf3d0; border-color: #d9b64a; color: #7a5c00; }
+.badge-silver { background: #eef1f4; border-color: #aab4be; color: #4a5560; }
+.badge-bronze { background: #fbeadd; border-color: #d89a6a; color: #7a3f14; }
+.badge-missable { background: #fde3de; border-color: var(--coral); color: var(--coral-dark); }
+.badge-hidden { background: #efe6f2; border-color: var(--plum); color: var(--plum); }
+.badge-kind { background: #e6f4f1; border-color: var(--teal); color: var(--teal); }
+.spoiler-text { color: var(--muted); font-style: italic; }
+
+.detail-col {
+  position: sticky; top: 12px; background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 16px 18px;
+}
+.detail-col h2 { margin-top: 0; }
+.detail-col .trophy-desc { font-size: 1.02rem; color: var(--ink); }
+.detail-guide { margin: 12px 0; }
+.detail-guide h3, .detail-sources h3 { margin-bottom: 4px; }
+.detail-sources ul { margin: 4px 0; padding-left: 20px; }
+.missable-warning {
+  background: #fde3de; border: 1px solid var(--coral); border-radius: 8px;
+  padding: 10px 12px; margin: 10px 0;
+}
+.detail-facts { font-size: 0.92rem; color: var(--muted); }
+.earn-btn {
+  background: var(--teal); color: #fff; border: none; border-radius: 8px;
+  padding: 9px 14px; cursor: pointer; font-weight: bold; margin-top: 8px;
+}
+.earn-btn.is-earned { background: #5b7a63; }
+
+.stage {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 16px 18px; margin-bottom: 14px;
+}
+.stage h3 { margin: 0 0 4px; }
+.stage p { margin: 4px 0 10px; }
+.stage-trophies { display: flex; flex-wrap: wrap; gap: 6px; }
+.stage-chip {
+  border: 1px solid var(--line); background: #fff; border-radius: 999px;
+  padding: 4px 10px; font-size: 0.88rem; cursor: pointer;
+}
+.stage-chip.is-earned { background: #e6f2e6; text-decoration: line-through; }
+.stage-progress { font-size: 0.9rem; color: var(--muted); }
+
+.missable-card {
+  background: #fff5f3; border: 2px solid var(--coral); border-radius: var(--radius);
+  padding: 16px 18px; margin-bottom: 16px;
+}
+.unconfirmed-list li { margin-bottom: 6px; }
+.empty-note { color: var(--muted); }
+footer { max-width: 1180px; margin: 0 auto; padding: 0 20px 30px; color: var(--muted); font-size: 0.9rem; }

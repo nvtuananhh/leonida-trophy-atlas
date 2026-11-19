@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Atlas — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="The complete offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI: official names, descriptions and grades, cited guides, a platinum roadmap and missable flags. Works offline.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; Offline guide &amp; tracker</p>
+    <h1>Leonida Trophy Atlas</h1>
+    <p class="subtitle">Every one of the 55 trophies — official name, description and grade, a guide in our own words with its sources, a roadmap to the platinum, and the missables flagged. No account, no network, no Rockstar artwork: just the list and the work.</p>
+    <div class="progress-wrap" id="progressWrap" aria-label="Overall progress">
+      <div class="progress-numbers"><span id="progressCount">0 / 55 earned</span><span id="progressPct">0%</span></div>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      <p class="grade-counts" id="gradeCounts"></p>
+    </div>
+  </div>
+</header>
+
+<nav class="views" aria-label="Views">
+  <button type="button" class="view-tab is-active" data-view="tracker" id="tabTracker">Tracker</button>
+  <button type="button" class="view-tab" data-view="roadmap" id="tabRoadmap">Platinum roadmap</button>
+  <button type="button" class="view-tab" data-view="missables" id="tabMissables">Missables <span class="missable-dot" id="missableDot">1</span></button>
+</nav>
+
+<main>
+  <section id="view-tracker" class="view is-active" aria-label="Trophy tracker">
+    <div class="toolbar" id="toolbar">
+      <label class="search-label">Search <input type="search" id="searchBox" placeholder="Search a trophy or mission…" autocomplete="off"></label>
+      <div class="filter-group" id="kindFilters" role="group" aria-label="Filter by kind">
+        <button type="button" class="filter-btn is-active" data-kind="all">All 55</button>
+        <button type="button" class="filter-btn" data-kind="story">Story</button>
+        <button type="button" class="filter-btn" data-kind="missable">Missable</button>
+        <button type="button" class="filter-btn" data-kind="collectible">Collectibles</button>
+        <button type="button" class="filter-btn" data-kind="activity">Activities</button>
+        <button type="button" class="filter-btn" data-kind="online">Online</button>
+      </div>
+      <div class="filter-row">
+        <label>Grade
+          <select id="gradeFilter">
+            <option value="all">All grades</option>
+            <option value="platinum">Platinum</option>
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+            <option value="bronze">Bronze</option>
+          </select>
+        </label>
+        <label>Earned
+          <select id="earnedFilter">
+            <option value="all">All trophies</option>
+            <option value="earned">Earned only</option>
+            <option value="unearned">Not earned yet</option>
+          </select>
+        </label>
+        <label>Sort
+          <select id="sortSelect">
+            <option value="roadmap">Roadmap order</option>
+            <option value="alpha">Alphabetical</option>
+            <option value="grade">By grade</option>
+          </select>
+        </label>
+        <label class="spoiler-toggle"><input type="checkbox" id="spoilerToggle" checked> Hide story spoilers</label>
+      </div>
+      <div class="save-row">
+        <button type="button" id="exportBtn">Export progress (.json)</button>
+        <label class="import-label" for="importFile">Import progress</label>
+        <input type="file" id="importFile" accept="application/json,.json" hidden>
+        <button type="button" id="resetBtn">Reset progress</button>
+        <span class="save-status" id="saveStatus" role="status"></span>
+      </div>
+      <p class="filter-note" id="filterNote"></p>
+    </div>
+
+    <div class="tracker-grid">
+      <div class="list-col">
+        <p class="list-count" id="listCount"></p>
+        <ol class="trophy-list" id="trophyList"></ol>
+        <p class="empty-note" id="emptyNote" hidden>No trophies match these filters. Try clearing the search or choosing another kind.</p>
+      </div>
+      <aside class="detail-col" id="detailPane" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section id="view-roadmap" class="view" aria-label="Platinum roadmap">
+    <h2>The road to the platinum</h2>
+    <p class="section-intro">Six stages in earning order, built from the official descriptions. PowerPyx rates the set 4/10 and about 200 hours, one playthrough, no online trophies, no mission replay — so play the story first, sweep the side stories, then clean up in free-roam. <strong>Keep a manual save at the start of every chapter.</strong></p>
+    <div id="roadmapStages"></div>
+  </section>
+
+  <section id="view-missables" class="view" aria-label="Missable trophies">
+    <h2>Missable — do not miss</h2>
+    <p class="section-intro">Only one trophy is flagged as potentially missable by the launch guides. Everything else is earned in free-roam after the story, or is an automatic story trophy. The checklist below is the whole missable watch.</p>
+    <div id="missableList"></div>
+    <h3>Not yet confirmed — no invented steps</h3>
+    <p>Seven trophies had no confirmed unlock method at launch (PowerPyx lists them as not yet known). Their guides in this atlas say so plainly and follow only what the official description implies. Check them again once a guide verifies the trigger in the game.</p>
+    <ul id="unconfirmedList" class="unconfirmed-list"></ul>
+    <h3>Save habits that protect the run</h3>
+    <ul>
+      <li>Manual save at the start of every chapter — there is no mission replay.</li>
+      <li>One more manual save before the final mission.</li>
+      <li>Cheats disable trophies and saving (PowerPyx) — keep them off for the whole run.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Leonida Trophy Atlas — an unofficial, open-source fan guide. Not affiliated with Rockstar Games. Trophy names and descriptions are the official PlayStation 5 list as published by Exophase and PSNProfiles; every guide is written for this atlas in its own words, with its sources named beside it. All 55 trophies are offline and single-player. Works fully offline: this page loads nothing from the network.</p>
+  <p id="dataCredit">List: 55 trophies — 1 platinum, 2 gold, 6 silver, 46 bronze; 28 hidden until earned.</p>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
