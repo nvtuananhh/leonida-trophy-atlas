@@ -105,6 +105,24 @@ async function boot() {
   }
   const view = params.get("view");
   if (view === "roadmap" || view === "missables" || view === "tracker") showView(view);
+  // Deep-link filters (?kind=story&grade=bronze&earned=unearned&search=text)
+  // so a filtered state is shareable and reproducible in screenshots.
+  const kindParam = params.get("kind");
+  if (["all", "story", "missable", "collectible", "activity", "online"].includes(kindParam)) {
+    state.filters.kind = kindParam;
+  }
+  const gradeParam = params.get("grade");
+  if (["all", "platinum", "gold", "silver", "bronze"].includes(gradeParam)) state.filters.grade = gradeParam;
+  const earnedParam = params.get("earned");
+  if (["all", "earned", "unearned"].includes(earnedParam)) state.filters.earned = earnedParam;
+  const searchParam = params.get("search");
+  if (searchParam) state.filters.search = searchParam;
+  document.getElementById("searchBox").value = state.filters.search;
+  document.getElementById("gradeFilter").value = state.filters.grade;
+  document.getElementById("earnedFilter").value = state.filters.earned;
+  for (const b of document.querySelectorAll("#kindFilters .filter-btn")) {
+    b.classList.toggle("is-active", b.dataset.kind === state.filters.kind);
+  }
 
   document.getElementById("spoilerToggle").checked = state.spoiler;
   document.getElementById("spoilerToggle").addEventListener("change", (event) => {

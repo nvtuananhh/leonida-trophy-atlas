@@ -1,6 +1,7 @@
 // roadmap.js — the six-stage platinum roadmap and the missables pages.
 // Stages and their trophies come straight from each trophy's roadmapStage,
 // which was assigned from its official description (chapter, mission, count).
+import { spoilerName, isSpoilerHidden } from "./spoiler.js";
 export const ROADMAP_STAGES = [
   { stage: 1, title: "Stage 1 — Story playthrough", text: "Play the story start to finish: Chapters 1 to 5, the named missions, and the final mission (gold). The story takes around 60–80 hours (PowerPyx). Do the Chapter 1 balcony meditation now — it is the only potentially missable step in the whole list." },
   { stage: 2, title: "Stage 2 — Side stories", text: "Finish the stranger strands and the five side-character finals — Andy, Kenton, Billy, Randy and Tyrone — plus Bret's hunt. 8 stranger strands earn the silver Strangers & Freaks." },
@@ -34,7 +35,10 @@ export function renderRoadmap(container, trophies, state, onSelect) {
       const chip = document.createElement("button");
       chip.type = "button";
       chip.className = "stage-chip" + (state.earned.has(t.id) ? " is-earned" : "");
-      chip.textContent = `${t.name} · ${t.grade}`;
+      // The roadmap respects the spoiler setting too: an un-earned story
+      // trophy shows only its grade here until it is earned.
+      chip.textContent = `${spoilerName(t, state)} · ${t.grade}`;
+      if (isSpoilerHidden(t, state)) chip.classList.add("spoiler-text");
       chip.addEventListener("click", () => onSelect(t.id));
       chips.appendChild(chip);
     }
