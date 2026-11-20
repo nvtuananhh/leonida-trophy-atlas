@@ -43,6 +43,18 @@ function gitHead() {
   }
 }
 
+// Deterministic build timestamp: the git HEAD commit's committer time
+// (ISO 8601). Unlike the wall clock, it is identical for every run of the
+// same commit, so manifest.json is byte-identical across runs. Falls back
+// to the fixed string "unknown" when git is unavailable.
+function gitHeadTimestamp() {
+  try {
+    return execSync("git log -1 --format=%cI", { cwd: REPO_ROOT, encoding: "utf8" }).trim();
+  } catch {
+    return "unknown";
+  }
+}
+
 function listFilesRecursive(dir) {
   const found = [];
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
@@ -112,7 +124,7 @@ function buildManifest(appFiles, shots) {
     app: "Leonida Trophy Atlas",
     competition: "gta6-trophy-guide-01",
     gitHead: gitHead(),
-    builtAt: new Date().toISOString(),
+    builtAt: gitHeadTimestamp(),
     trophyCount: 55,
     files,
   };
