@@ -104,8 +104,8 @@ button.danger { background: #fff; color: #a33; border-color: #c99; }
 .spoiler-mask { color: var(--ink-soft); font-style: italic; }
 .empty-note { color: var(--ink-soft); }
 .detail {
-  position: fixed; inset: auto 0 0 0; max-height: 78vh; overflow: auto;
-  background: var(--card); border-top: 3px solid var(--magenta); box-shadow: 0 -8px 30px rgba(36,26,46,.25);
+  position: fixed; top: 0; right: 0; bottom: 0; width: min(560px, 94vw); overflow: auto;
+  background: var(--card); border-left: 3px solid var(--magenta); box-shadow: -8px 0 30px rgba(36,26,46,.25);
   padding: 18px 16px 28px; z-index: 10;
 }
 .detail-inner { max-width: 860px; margin: 0 auto; }

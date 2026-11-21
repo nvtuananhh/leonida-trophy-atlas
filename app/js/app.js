@@ -63,7 +63,6 @@ function openDetail(id) {
   state.detailId = id;
   const trophy = state.trophies.find((t) => t.id === id);
   if (trophy) renderDetail(el('detailPanel'), el('detailBody'), trophy, state.earned, state.spoilerOn, toggleEarned);
-  el('detailPanel').scrollIntoView({ behavior: 'auto', block: 'nearest' });
 }
 
 function closeDetail() {
