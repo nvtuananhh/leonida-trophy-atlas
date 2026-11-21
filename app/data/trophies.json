@@ -1,0 +1,924 @@
+{
+ "game": "Grand Theft Auto VI",
+ "platform": "PlayStation 5",
+ "list": "the official 55 trophies",
+ "trophies": [
+  {
+   "id": 1,
+   "name": "Vice Got a Price!",
+   "description": "Congratulations! You're a Leonida Legend.",
+   "grade": "platinum",
+   "hidden": false,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — it pops automatically once the other 54 are earned, at any point in free-roam.",
+   "guide": "Earn the other 54 trophies and this one unlocks by itself. Plan for the long haul: the published roadmaps put the platinum at roughly 200 hours, with the 100% completion gold (A Long Road) as the last big hurdle, so treat every other guide in this atlas as a step toward this one.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 6
+  },
+  {
+   "id": 2,
+   "name": "Just Like Paradise",
+   "description": "Complete Gone Fishing.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — it is the opening mission and cannot be skipped or failed permanently.",
+   "guide": "Play the opening mission, Gone Fishing, to its end. It is the first mission of the game, so just follow the on-screen objectives; there is nothing to prepare and no way to miss it.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 1,
+   "chapter": "Chapter 1",
+   "mission": "Gone Fishing"
+  },
+  {
+   "id": 3,
+   "name": "Paradise Lost",
+   "description": "Complete Chapter 1.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — story chapters complete in order and can always be finished.",
+   "guide": "Finish every mission in Chapter 1. While you are here, meditate at Jason's house: the guides flag it as the one meditation spot that may not come back, and it feeds the Positive Mental Attitude trophy. Keep a save at the start of the chapter as insurance.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASnaps — GTA 6 Trophy Guide and Roadmap", "url": "https://gtasnaps.com/gta-6-trophy-guide-and-roadmap/"}
+   ],
+   "roadmapStage": 1,
+   "chapter": "Chapter 1"
+  },
+  {
+   "id": 4,
+   "name": "T**s Ass Drug Money",
+   "description": "Complete Chapter 2.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — story chapters complete in order and can always be finished.",
+   "guide": "Finish every mission in Chapter 2. The asterisks are part of the official trophy name as PlayStation publishes it. Use the chapter to build your side habits: scan vehicles and animals through the binoculars when you pass them, since the 100% checklist later asks for 200 of 277 vehicles and 100 of 255 animals.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 1,
+   "chapter": "Chapter 2"
+  },
+  {
+   "id": 5,
+   "name": "Vice City, Baby!",
+   "description": "Complete Chapter 3.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — story chapters complete in order and can always be finished.",
+   "guide": "Finish every mission in Chapter 3. By now the map is opening up: take a detour to try a new activity type or two whenever one appears, because Master of None wants all 9 activity types tried once and the checklist counts progress made during the story.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 1,
+   "chapter": "Chapter 3"
+  },
+  {
+   "id": 6,
+   "name": "Top Of The World, Ma",
+   "description": "Complete Chapter 4.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — story chapters complete in order and can always be finished.",
+   "guide": "Finish every mission in Chapter 4. This is the chapter where the optional bank-vault mission opens: there are 8 vaults in the game and the trophy asks for 5, while 100% completion wants all 8, so start the vaults here rather than leaving them all for clean-up.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 1,
+   "chapter": "Chapter 4"
+  },
+  {
+   "id": 7,
+   "name": "You Gotta Know When to Get Off",
+   "description": "Complete the final mission.",
+   "grade": "gold",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — the final mission is always available at the end of the story.",
+   "guide": "Complete the final mission in Chapter 5. Once the credits roll you return to free-roam, so nothing in the story locks you out of the remaining trophies — and the 100% completion checklist under Progress, then Stats, finally becomes visible.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 1,
+   "chapter": "Chapter 5",
+   "mission": "Final mission"
+  },
+  {
+   "id": 8,
+   "name": "Trust",
+   "description": "Complete Breakfast Run.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — a named story mission that is always playable in its chapter.",
+   "guide": "Complete the mission Breakfast Run when it appears in the story. Play it as the game directs; like the other named-mission trophies it pops on completion, with no extra objective to chase.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 1,
+   "mission": "Breakfast Run"
+  },
+  {
+   "id": 9,
+   "name": "Break the Bank",
+   "description": "Complete The Cartel Heist.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — a named story mission that is always playable in its chapter.",
+   "guide": "Complete the mission The Cartel Heist. It is a set-piece story mission, so follow the objectives as they come; the trophy pops when the heist is done, and there is no separate challenge layered on top.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 1,
+   "mission": "The Cartel Heist"
+  },
+  {
+   "id": 10,
+   "name": "Family Matters",
+   "description": "Complete Child's Play.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — a named story mission that is always playable in its chapter.",
+   "guide": "Complete the mission Child's Play. No preparation is needed: reach it in the story, play it through, and the trophy pops on completion.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 1,
+   "mission": "Child's Play"
+  },
+  {
+   "id": 11,
+   "name": "DWNFALL",
+   "description": "Complete Headliners.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — a named story mission that is always playable in its chapter.",
+   "guide": "Complete the mission Headliners. It is a story beat, not a challenge: follow the mission flow to the end and the trophy unlocks with it.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 1,
+   "mission": "Headliners"
+  },
+  {
+   "id": 12,
+   "name": "Hi-Jacked",
+   "description": "Complete VCIA Takedown.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — a named story mission that is always playable in its chapter.",
+   "guide": "Complete the mission VCIA Takedown at Vice City International Airport. The airport also matters for the Catch Me If You Can trophy, so once the story is done, remember VCIA as a place worth returning to for an unscheduled departure.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 1,
+   "mission": "VCIA Takedown"
+  },
+  {
+   "id": 13,
+   "name": "Snow Storm",
+   "description": "Complete Operation Savage Glory.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — a named story mission that is always playable in its chapter.",
+   "guide": "Complete the mission Operation Savage Glory. Like the other named-mission trophies it is a straight story completion: play the mission through and it pops at the end.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 1,
+   "mission": "Operation Savage Glory"
+  },
+  {
+   "id": 14,
+   "name": "A Long Road",
+   "description": "Attain 100% Completion.",
+   "grade": "gold",
+   "hidden": false,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — the checklist stays open in free-roam after the story and nothing on it expires.",
+   "guide": "Reach 100% on the in-game completion checklist, which appears under Progress, then Stats, only after the story — though everything you did during the story already counts. PowerPyx calls this the hardest trophy and the bulk of the roughly 200-hour platinum. The checklist is lenient — closer to 60% true completion — and only 70 of the 80 challenges are needed, so skip the hardest ones; the tasks that demand everything are the robberies, underwater discoveries, shooting ranges, drone races and Bret's quests.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASnaps — GTA 6 Trophy Guide and Roadmap", "url": "https://gtasnaps.com/gta-6-trophy-guide-and-roadmap/"}
+   ],
+   "roadmapStage": 5
+  },
+  {
+   "id": 15,
+   "name": "Cunning Stunts",
+   "description": "Complete 250 Stunts.",
+   "grade": "silver",
+   "hidden": false,
+   "count": 250,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — stunts can be done anywhere in free-roam, before or after the story.",
+   "guide": "Pull off any 250 stunts across Leonida: stunt jumps, flights under bridges, knife flights and base jumps all count, and the game holds 397 stunts in total. The 100% checklist wants 300, so keep going past 250 — the cleanest way is to work through the stunt jumps and bridge flights systematically during clean-up, ticking each spot off once.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 16,
+   "name": "Master of None",
+   "description": "Try each type of activity once.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 9,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — every activity type stays available in free-roam after the story.",
+   "guide": "Try each of the 9 activity types at least once: fishing, racing, drone races, the shooting range, arcade games, bowling, meditation, hunting and the WAiNK photo spots are the kinds the guides list. The fastest route is to sample one of each as you meet it during the story, then sweep up any you skipped in a single free-roam pass.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 17,
+   "name": "The Shootist",
+   "description": "Earn a gold medal in all Shooting Range challenges.",
+   "grade": "silver",
+   "hidden": false,
+   "count": 42,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — the ranges stay open in free-roam and challenges can be retried without limit.",
+   "guide": "Earn a gold medal in all 42 Shooting Range challenges across the game's 12 ranges. This is one of the tasks the 100% checklist demands in full, so there is no skipping a hard one. Work range by range, learn each challenge's target pattern before chasing gold, and use the cheapest, most controllable weapon for each — steady aim beats speed on the precision rounds.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 5
+  },
+  {
+   "id": 18,
+   "name": "Top Fun",
+   "description": "Win a Top Fun Drone Race at every location.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 14,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — drone races stay available in free-roam and can be retried.",
+   "guide": "Win a Top Fun drone race at all 14 locations. Like the shooting ranges, this one is demanded in full by the 100% checklist, so every location must be won, not just most. Learn each course's line first with a slow run, then race it for real; cutting corners through gates cleanly matters more than raw speed.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 19,
+   "name": "Earn Cash, Not Kudos",
+   "description": "Win 20 different races.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 20,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — races stay available in free-roam and can be retried.",
+   "guide": "Win 20 different races — 20 distinct events, not the same race 20 times. Work through the race list across Leonida, picking a fresh event each time, and keep a faster car or bike tuned for road races so the later events do not become a grind.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 20,
+   "name": "Baited My Tackle",
+   "description": "Beat Cal in a fishing challenge.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — fishing challenges can be retried in free-roam.",
+   "guide": "Beat Cal in a fishing challenge. Fishing is one of the 9 activity types, so this doubles as progress toward Master of None. Take your time on the line: let the fish tire itself out rather than reeling hard the whole time, and retry the challenge if Cal lands the bigger catch.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 21,
+   "name": "Stick Fiddler",
+   "description": "Complete an arcade game.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — arcade games stay playable in free-roam.",
+   "guide": "Complete any one arcade game from start to finish. Pick the shortest cabinet you find and play it through in one sitting; it counts toward the 9 activity types for Master of None as well.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 22,
+   "name": "Road to Rehabilitation",
+   "description": "Complete the final mission for Andy.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — Andy's strand is a side story that stays completable in free-roam; the guides note Andy's quests are Lucia-only, so play them as Lucia.",
+   "guide": "Complete Andy's final mission. Andy's questline is Lucia-only, so play these missions as Lucia. Work through the strand whenever it appears — side stories count toward the Strangers & Freaks tally only where the guides confirm them, but Andy's finale is its own trophy either way.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 2,
+   "mission": "Andy's final mission"
+  },
+  {
+   "id": 23,
+   "name": "This Was No Boat Accident",
+   "description": "Complete the final mission for Kenton.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — Kenton's strand stays completable in free-roam after the story.",
+   "guide": "Complete Kenton's final mission. Follow Kenton's strand to its end; the boat theme runs through it, so expect water work in the finale and keep a fast boat handy rather than swimming the last leg.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 2,
+   "mission": "Kenton's final mission"
+  },
+  {
+   "id": 24,
+   "name": "The Lone Rider",
+   "description": "Complete the final mission for Billy.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — Billy's strand stays completable in free-roam after the story.",
+   "guide": "Complete Billy's final mission. Billy's strand is built around riding, so keep a good bike ready for the finale and finish the strand before you start the deep clean-up pass — it is one of the side stories the roadmap groups in Stage 2.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 2,
+   "mission": "Billy's final mission"
+  },
+  {
+   "id": 25,
+   "name": "Strangers & Freaks",
+   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+   "grade": "silver",
+   "hidden": false,
+   "count": 8,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — stranger strands stay completable in free-roam; only some side questlines count, and PowerPyx is still confirming which ones.",
+   "guide": "Complete 8 qualifying stranger mission strands across Leonida. Not every side questline counts — PowerPyx is still confirming exactly which ones qualify — so finish the named character strands (Andy, Kenton, Billy, Randy, Tyrone, Bret) first, since those are the confirmed core, and then work through the stranger encounters marked on the map until the tally hits 8.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 2
+  },
+  {
+   "id": 26,
+   "name": "Supply & Demand",
+   "description": "Complete the final mission for Randy.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — Randy's strand stays completable in free-roam after the story.",
+   "guide": "Complete Randy's final mission. Randy's strand is about moving product, so expect supply runs and a delivery finale; finish it in the Stage 2 side-story pass, before you sink hours into collectibles.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 2,
+   "mission": "Randy's final mission"
+  },
+  {
+   "id": 27,
+   "name": "Spin On This!",
+   "description": "Complete the final mission for Tyrone.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableWhy": "Not missable — Tyrone's strand stays completable in free-roam; the guides note Tyrone's quests are Jason-only, so play them as Jason.",
+   "guide": "Complete Tyrone's final mission. Tyrone's quests are Jason-only, so play them as Jason. Clear the strand in the Stage 2 pass alongside Andy's Lucia-only strand — the two character-locked questlines are the ones easiest to leave half-finished by accident.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 2,
+   "mission": "Tyrone's final mission"
+  },
+  {
+   "id": 28,
+   "name": "Positive Mental Attitude",
+   "description": "Meditate at every spot across Leonida.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 18,
+   "kind": "missable",
+   "missable": true,
+   "missableWhy": "The list's only possibly missable trophy: PowerPyx flags one meditation spot at Jason's house in Chapter 1 that may not be reachable later, and it is still unconfirmed whether that spot is actually required. Meditate there in Chapter 1, before the chapter ends, and keep a save from the start of Chapter 1 as insurance.",
+   "guide": "Meditate at all 18 spots across Leonida's 10 meditation locations, using both characters where a spot allows it. Start in Chapter 1 at Jason's house — the flagged spot — and meditate at every spot you pass during the story, since some quests carry an hourglass and expire. The trophy is the one possible missable on the whole list, so do not leave the meditations for clean-up: sweep the remaining spots as soon as free-roam opens.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASnaps — GTA 6 Trophy Guide and Roadmap", "url": "https://gtasnaps.com/gta-6-trophy-guide-and-roadmap/"}
+   ],
+   "roadmapStage": 1
+  },
+  {
+   "id": 29,
+   "name": "Fair Game",
+   "description": "Hunt a unique animal for Bret.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — Bret's quests stay completable in free-roam; the guides note Bret's quests are Jason-only, so play them as Jason.",
+   "guide": "Hunt the unique animal Bret asks for. Bret's quests are Jason-only, so take them on as Jason, and the 100% checklist demands Bret's quests in full — finish the whole strand, not just the trophy hunt. Track the animal patiently and take the shot when it holds still rather than chasing it through the brush.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 2,
+   "mission": "Bret's hunt"
+  },
+  {
+   "id": 30,
+   "name": "Don't Touch My Deck",
+   "description": "Complete 3 Collectible Card sets.",
+   "grade": "silver",
+   "hidden": false,
+   "count": 3,
+   "kind": "collectible",
+   "missable": false,
+   "missableWhy": "Not missable — cards stay collectible in free-roam after the story.",
+   "guide": "Complete any 3 of the 18 collectible card sets. You do not need all 18 — pick the three sets whose cards cluster nearest each other and work them one set at a time, checking each card off as you grab it so you never re-run a route for a card you already hold.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 3
+  },
+  {
+   "id": 31,
+   "name": "You WAiNKer!",
+   "description": "WAiNK It at 100 locations.",
+   "grade": "silver",
+   "hidden": false,
+   "count": 100,
+   "kind": "collectible",
+   "missable": false,
+   "missableWhy": "Not missable — WAiNK spots stay scannable in free-roam after the story.",
+   "guide": "Use the WAiNK phone app to scan 100 locations — landmarks, curiosities and sculptures all count. Make it a habit during the story: scan every landmark you pass instead of saving all 100 for clean-up, and work district by district in free-roam so no corner of the map is left unscanned.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 3
+  },
+  {
+   "id": 32,
+   "name": "One Last Thing",
+   "description": "Complete 50 Challenges.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 50,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — challenges stay completable in free-roam, and only 70 of the 80 are needed for 100%.",
+   "guide": "Complete any 50 of the game's 80 challenges, grouped in eight sets of ten. The 100% checklist only needs 70, so you can skip the hardest ones entirely — pick the easy challenges across all eight groups first, and leave the brutal ones for last or never.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 33,
+   "name": "Hot Together",
+   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — wanted levels can be raised again any time in free-roam.",
+   "guide": "With your partner beside you, build a 4-star wanted level, then lose it and escape. The trick is the escape, not the heat: break line of sight, get out of the search area, and use a fast car on open roads — hiding in an alley while helicopters circle will not do it. Pair this attempt with Retail Therapy, since both want you out with your partner and wanted.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 34,
+   "name": "Retail Therapy",
+   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 3,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — shop robberies can be retried any time in free-roam.",
+   "guide": "With your partner, rob 3 shops back-to-back without losing your wanted level — the wanted level must stay on through all three. Plan a route of three close-together shops in advance, hit them fast, and do not stop to fight the police between them: keep moving, keep your partner with you, and the third till is the trophy.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 35,
+   "name": "Whip It Good",
+   "description": "Discover 100 vehicles.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 100,
+   "kind": "collectible",
+   "missable": false,
+   "missableWhy": "Not missable — vehicles keep spawning in free-roam, and discovery counts from the story onward.",
+   "guide": "Discover 100 vehicles — drive or ride in 100 different ones. The 100% checklist separately wants you to study 200 of the 277 base-model vehicles through the binoculars, so scan every new vehicle you meet rather than just hopping in: the two goals overlap and the scanning habit pays off twice.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Vice City Hustle — GTA 6 Trophy List", "url": "https://www.vicecityhustle.com/guides/gta-6-trophy-list-all-55-trophies"}
+   ],
+   "roadmapStage": 3
+  },
+  {
+   "id": 36,
+   "name": "Gunslinger",
+   "description": "Take down 5 enemies in a single use of Combat Focus.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 5,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — Combat Focus can be used in any fight, any time.",
+   "guide": "Take down 5 enemies in one single use of Combat Focus. Set it up deliberately: find a spot with a cluster of enemies, trigger Combat Focus with a full meter, and chain the kills before it runs out — a scattered firefight will not give you five in one window. If the first try falls short, the meter refills and you can try again immediately.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 37,
+   "name": "Catch Me If You Can",
+   "description": "Make an unscheduled departure at VCIA.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — VCIA stays accessible in free-roam after the story.",
+   "guide": "Leave Vice City International Airport in an unscheduled way — steal a plane and take off without a flight plan, or drive a vehicle off the airfield at speed. The airport is the same one from the VCIA Takedown mission, so you already know the layout: get to a runway, grab a plane, and get airborne before security closes in.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 38,
+   "name": "Challenging Tank",
+   "description": "Kinda hot in these Rhinos.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — Rhino tanks can be encountered again in free-roam.",
+   "guide": "Deal with Rhino tanks — get into the thick of a tank encounter and come out on top. Build your wanted level high in an open area so the Rhinos roll in, then use heavy weapons or a tank of your own rather than trading shots from a sedan. It is a hidden trophy, so the description is a joke, not instructions: survive the tanks.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 39,
+   "name": "Sneakthief",
+   "description": "Rob a jewelry store without being detected.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — jewelry stores can be robbed again in free-roam.",
+   "guide": "Rob a jewelry store without being detected. Go in quiet: move slowly, stay out of the staff's sightlines, take the goods and leave before anyone raises the alarm. If a guard spots you, the attempt is blown — walk away, let the heat die down, and try again.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 40,
+   "name": "Maximum Withdrawal",
+   "description": "Rob 5 Bank Vaults and escape.",
+   "grade": "silver",
+   "hidden": false,
+   "count": 5,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — the 8 bank vaults stay robbable in free-roam after the story.",
+   "guide": "Rob 5 of the game's 8 bank vaults and escape each time. The vault jobs open through an optional mission in Chapter 4, so start them during the story rather than leaving all five for clean-up — and remember the 100% checklist wants all 8, so keep going after the trophy pops. Plan the escape route before you crack the vault, not after.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 5
+  },
+  {
+   "id": 41,
+   "name": "A Classic Blitz Play",
+   "description": "Rob an Armored Truck and escape.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — armored trucks keep spawning in free-roam.",
+   "guide": "Rob an armored truck and escape. Watch for one on the roads, block it or force it to stop, crack it open, then lose the wanted level with a planned escape route — a fast car parked nearby before you start makes the getaway the easy part.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 42,
+   "name": "The Goodtime State",
+   "description": "Explore all of Leonida.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "collectible",
+   "missable": false,
+   "missableWhy": "Not missable — every area of Leonida stays explorable in free-roam.",
+   "guide": "Explore every area of Leonida. The cleanest method is a systematic sweep: work through the map region by region — Vice City, the Keys, the swamps, the farmland — and do it while collecting cards and WAiNK spots, so the exploration pass also feeds Don't Touch My Deck and You WAiNKer! at the same time.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 3
+  },
+  {
+   "id": 43,
+   "name": "Pest Control",
+   "description": "Rob an Illegal Operation belonging to each gang.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — gang operations keep appearing in free-roam.",
+   "guide": "Rob one illegal operation belonging to each gang operating in Leonida. Work the map gang by gang, hitting an operation in each gang's territory, and keep a note of which gangs you have done — the trophy only pops when the last gang's operation is robbed, so the checklist habit matters more than the fighting.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 44,
+   "name": "In The Beginning…",
+   "description": "Enjoy a cocktail with a view on Ocean Beach.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — Ocean Beach bars stay open in free-roam.",
+   "guide": "Order and enjoy a cocktail at a bar with a view on Ocean Beach. It is a quiet moment trophy: walk to the beachfront, find the bar, sit with the view, and order the drink. Do it during a story break in Vice City rather than as a special trip.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 45,
+   "name": "Capital Offense",
+   "description": "Smash your way out of a vehicle showroom in classic style.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — vehicle showrooms stay accessible in free-roam.",
+   "guide": "Drive a car straight through a vehicle showroom's glass and out the other side, in classic GTA style. Pick a showroom with a clear run-up, get up to speed on the street outside, and drive through the front — the trophy is about the smash, so commit to it rather than braking at the glass.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 46,
+   "name": "Let’s Go Bowling",
+   "description": "Follow-through at the Kolt & Associates' bowling alley.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — the bowling alley stays open in free-roam.",
+   "guide": "Play a full game at the Kolt & Associates bowling alley and follow through to the end. Bowling is one of the 9 activity types, so this also counts toward Master of None — just finish the game, however badly you bowl.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 47,
+   "name": "Personal Best",
+   "description": "A partnership with mass appeal.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — partner activities stay available in free-roam.",
+   "guide": "Do something with your partner that draws a crowd — a public, showy moment together. The description is deliberately vague, so treat it as a partner-activity trophy: spend time doing activities with your partner in busy places until it pops, and pair the attempt with the other partner trophies (Hot Together, Retail Therapy) in the same session.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 48,
+   "name": "Actions Speak Louder",
+   "description": "Choices made (for better or worse).",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — choices keep coming through the story and free-roam, and the count accumulates across them.",
+   "guide": "Keep making choices as you play — the trophy tracks the decisions you make across the story, for better or worse. There is no single moment to hit: play through the chapters making the calls the game offers, and it pops once the tally is reached. The guides note an Irredeemable profile choice that cannot be undone, so think before you lock in a profile-defining decision.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 49,
+   "name": "Bad Luck, I Guess",
+   "description": "Second time's the charm.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — a retry-based trophy that can be attempted again any time.",
+   "guide": "Succeed on a second attempt at something you failed the first time. The natural way to get it is to fail an activity or challenge once, then clear it on the immediate retry — the trophy is about the comeback, so do not reload an old save after a failure; play the retry straight away.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 50,
+   "name": "The Truth Is Out There",
+   "description": "What the hell just happened?",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — the strange encounter can be found again in free-roam.",
+   "guide": "Witness something strange out in Leonida — one of the game's odd, out-of-place encounters. Explore the wilder corners of the map at night and investigate anything that looks wrong; the guides list this one as still being confirmed, so treat it as an exploration trophy and sweep the remote spots during your Goodtime State pass.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 51,
+   "name": "Ten Pin",
+   "description": "Bowl 'em over with a melee drive-by.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — melee drive-bys can be done any time in free-roam.",
+   "guide": "Knock someone down with a melee drive-by: drive past a pedestrian slowly and swing a melee weapon from the vehicle. The bowling name is the joke — it is about the drive-by, not the alley. Find a quiet street, line the car up, and take the swing as you pass; if you miss, circle back and try again.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 52,
+   "name": "Dime on the Dollar",
+   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 250000,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — marked bills keep coming from robberies, and contacts stay available in free-roam.",
+   "guide": "Launder $250,000 of Marked Bills through your contacts. Marked bills come from robberies and heists, so the laundering total grows naturally as you work the robbery trophies — bank vaults, armored trucks and shop robberies all feed it. Visit your contacts regularly to wash what you hold rather than letting bills pile up unlaundered.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "Sixshore — GTA 6 Trophy and Achievement List", "url": "https://sixshore.com/gta-6/guides/trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 53,
+   "name": "Treat Yo Self",
+   "description": "Spend $100,000 across all shops.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 100000,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — shops stay open in free-roam and spending accumulates across the whole run.",
+   "guide": "Spend $100,000 across all shops in Leonida. The total accumulates over the whole run, so it grows by itself if you buy weapons, clothes, car upgrades and supplies as you play — do not save it for a single shopping spree. Buy the gear you actually need for the shooting ranges and races, and the total will follow.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "GTASpotter — GTA VI trophies and achievements", "url": "https://gtaspotter.com/en/guides/gta-6-trophies-and-achievements/"}
+   ],
+   "roadmapStage": 4
+  },
+  {
+   "id": 54,
+   "name": "Little Boxes",
+   "description": "Purchase all garage properties.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "collectible",
+   "missable": false,
+   "missableWhy": "Not missable — garage properties stay buyable in free-roam.",
+   "guide": "Purchase every garage property in Leonida. Garages are also where your tuned cars live, so buy them as you find them during the exploration pass — and keep some cash in reserve, since the properties compete with the $100,000 of shop spending that Treat Yo Self wants.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
+   ],
+   "roadmapStage": 3
+  },
+  {
+   "id": 55,
+   "name": "On the Spot",
+   "description": "Register 10 vehicles to the Scooter Bros app.",
+   "grade": "bronze",
+   "hidden": false,
+   "count": 10,
+   "kind": "activity",
+   "missable": false,
+   "missableWhy": "Not missable — vehicles keep appearing in free-roam and the app stays usable.",
+   "guide": "Register 10 vehicles to the Scooter Bros app. Find a vehicle, open the app, and register it — then move on to the next one. The fastest route is to work a busy street and register each fresh vehicle you meet, which also feeds Whip It Good's 100-vehicle discovery count at the same time.",
+   "sources": [
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vI-trophy-guide-roadmap/"},
+    {"name": "PlanetGTA6 — GTA 6 Trophies", "url": "https://www.planetgta6.com/en/gta-6-trophies/"}
+   ],
+   "roadmapStage": 4
+  }
+ ]
+}
