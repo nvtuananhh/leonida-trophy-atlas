@@ -1,208 +1,137 @@
-// render.js — the checklist, the detail panel and the progress header.
-// All text goes through textContent (never innerHTML with data), so trophy
-// names, guides and source names can never inject markup.
-import { isEarned, earnedCount, setEarned } from "./store.js";
-import { isSpoilerHidden, spoilerPlaceholder, spoilerSummary } from "./spoiler.js";
-import { gradeLabel, kindLabel } from "./filters.js";
+import { shownName, shownDescription, spoilerHides } from "./spoiler.js";
 
-function badge(trophy) {
-  const span = document.createElement("span");
-  span.className = "grade-badge grade-" + trophy.grade;
-  span.textContent = gradeLabel(trophy.grade);
-  return span;
-}
-
-function kindTag(trophy) {
-  const span = document.createElement("span");
-  span.className = "kind-tag";
-  span.textContent = kindLabel(trophy.kind);
-  return span;
-}
-
-export function renderProgress(trophies, state) {
-  const earned = earnedCount(state);
-  const total = trophies.length;
-  const pct = total ? Math.round((earned / total) * 100) : 0;
-  document.getElementById("earnedCount").textContent = String(earned);
-  const fill = document.getElementById("progressFill");
-  fill.style.width = pct + "%";
-  document.getElementById("progressBarWrap").setAttribute("aria-valuenow", String(earned));
-  document.getElementById("progressText").textContent =
-    earned + " of " + total + " earned · platinum " + pct + "%";
-  const byGrade = {};
+export function gradeCounts(trophies, state) {
+  const counts = { platinum: [0, 0], gold: [0, 0], silver: [0, 0], bronze: [0, 0] };
   for (const trophy of trophies) {
-    if (!byGrade[trophy.grade]) byGrade[trophy.grade] = [0, 0];
-    byGrade[trophy.grade][1] += 1;
-    if (isEarned(state, trophy.id)) byGrade[trophy.grade][0] += 1;
+    counts[trophy.grade][1] += 1;
+    if (state.earned[trophy.id]) counts[trophy.grade][0] += 1;
   }
-  const order = ["platinum", "gold", "silver", "bronze"];
-  document.getElementById("gradeCounts").textContent = order
-    .filter((g) => byGrade[g])
-    .map((g) => gradeLabel(g) + " " + byGrade[g][0] + "/" + byGrade[g][1])
-    .join(" · ");
+  return counts;
 }
 
-export function renderList(listEl, trophies, state, handlers) {
-  listEl.textContent = "";
+export function renderProgress(progressEl, fillEl, countsEl, trophies, state) {
+  const earned = trophies.filter((t) => state.earned[t.id]).length;
+  progressEl.textContent = `${earned} / ${trophies.length} trophies earned`;
+  fillEl.style.width = `${Math.round((earned / trophies.length) * 100)}%`;
+  const counts = gradeCounts(trophies, state);
+  countsEl.textContent = Object.entries(counts)
+    .map(([grade, [got, total]]) => `${grade}: ${got}/${total}`)
+    .join(" · ") + ` · hidden: ${trophies.filter((t) => t.hidden).length} · missable: ${trophies.filter((t) => t.missable).length}`;
+}
+
+export function renderList(listEl, trophies, state, onToggle, onSelect) {
+  listEl.innerHTML = "";
   for (const trophy of trophies) {
     const item = document.createElement("li");
-    item.className = "trophy" + (isEarned(state, trophy.id) ? " earned" : "")
-      + (state.selectedId === trophy.id ? " selected" : "");
-    item.dataset.id = String(trophy.id);
-
-    const check = document.createElement("input");
-    check.type = "checkbox";
-    check.checked = isEarned(state, trophy.id);
-    check.setAttribute("aria-label", "Mark " + trophy.name + " as earned");
-    check.addEventListener("click", (event) => event.stopPropagation());
-    check.addEventListener("change", () => handlers.onToggle(trophy.id, check.checked));
-    item.appendChild(check);
-
+    item.className = "card" + (state.earned[trophy.id] ? " earned" : "");
+    const box = document.createElement("input");
+    box.type = "checkbox";
+    box.checked = Boolean(state.earned[trophy.id]);
+    box.setAttribute("aria-label", `Mark ${trophy.name} earned`);
+    box.addEventListener("change", () => onToggle(trophy.id, box.checked));
     const body = document.createElement("div");
-    const name = document.createElement("p");
-    name.className = "trophy-name";
+    const title = document.createElement("h3");
+    title.textContent = shownName(trophy, state);
     const desc = document.createElement("p");
-    desc.className = "trophy-desc";
-    if (isSpoilerHidden(trophy, state)) {
-      name.textContent = spoilerSummary(trophy);
-      name.classList.add("spoiler-name");
-      desc.textContent = spoilerPlaceholder(trophy);
-    } else {
-      name.textContent = trophy.name;
-      desc.textContent = trophy.description;
-    }
-    body.appendChild(name);
-    body.appendChild(desc);
+    desc.className = "desc";
+    desc.textContent = shownDescription(trophy, state);
     const meta = document.createElement("div");
-    meta.className = "trophy-meta";
-    meta.appendChild(badge(trophy));
-    meta.appendChild(kindTag(trophy));
+    meta.className = "meta";
+    const grade = document.createElement("span");
+    grade.className = `badge ${trophy.grade}`;
+    grade.textContent = trophy.grade;
+    meta.appendChild(grade);
+    const kind = document.createElement("span");
+    kind.className = "badge kind";
+    kind.textContent = trophy.kind;
+    meta.appendChild(kind);
     if (trophy.hidden) {
-      const hidden = document.createElement("span");
-      hidden.className = "hidden-tag";
-      hidden.textContent = "Hidden";
-      meta.appendChild(hidden);
-    }
-    if (trophy.missable) {
       const flag = document.createElement("span");
-      flag.className = "missable-badge";
-      flag.textContent = "⚠ Missable";
+      flag.className = "badge hiddenflag";
+      flag.textContent = "hidden on PSN";
       meta.appendChild(flag);
     }
     if (trophy.count) {
       const count = document.createElement("span");
-      count.className = "count-tag";
-      count.textContent = "Target: " + trophy.count;
+      count.className = "badge countflag";
+      count.textContent = `count: ${trophy.count.toLocaleString()}`;
       meta.appendChild(count);
     }
-    body.appendChild(meta);
-    item.appendChild(body);
-
-    const mark = document.createElement("span");
-    mark.className = "earned-mark";
-    mark.textContent = isEarned(state, trophy.id) ? "✓ Earned" : "Not earned";
-    mark.hidden = !isEarned(state, trophy.id);
-    item.appendChild(mark);
-
-    item.addEventListener("click", () => handlers.onSelect(trophy.id));
+    if (trophy.missable) {
+      const miss = document.createElement("span");
+      miss.className = "badge missbadge";
+      miss.textContent = "⚠ Missable";
+      meta.appendChild(miss);
+    }
+    body.append(title, desc, meta);
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "guideBtn";
+    button.textContent = "Guide →";
+    button.addEventListener("click", () => onSelect(trophy.id));
+    item.append(box, body, button);
     listEl.appendChild(item);
   }
-  document.getElementById("emptyNote").hidden = trophies.length !== 0;
+  if (trophies.length === 0) {
+    const empty = document.createElement("li");
+    empty.className = "card";
+    empty.textContent = "No trophies match these filters. Clear the search or choose All kinds.";
+    listEl.appendChild(empty);
+  }
 }
 
-export function renderDetail(panel, trophy, state, handlers) {
-  panel.textContent = "";
+export function renderDetail(detailEl, trophy, state, onToggle) {
+  detailEl.innerHTML = "";
   if (!trophy) {
-    const p = document.createElement("p");
-    p.className = "detail-empty";
-    p.textContent = "Select a trophy on the left to read its guide, its sources and its missable warning.";
-    panel.appendChild(p);
+    detailEl.textContent = "Select a trophy to read its guide.";
     return;
   }
-
-  const meta = document.createElement("div");
-  meta.className = "trophy-meta";
-  meta.appendChild(badge(trophy));
-  meta.appendChild(kindTag(trophy));
-  if (trophy.hidden) {
-    const hidden = document.createElement("span");
-    hidden.className = "hidden-tag";
-    hidden.textContent = "Hidden on PlayStation";
-    meta.appendChild(hidden);
-  }
-  if (trophy.missable) {
-    const flag = document.createElement("span");
-    flag.className = "missable-badge";
-    flag.textContent = "⚠ Missable";
-    meta.appendChild(flag);
-  }
-  panel.appendChild(meta);
-
-  const title = document.createElement("h2");
-  title.textContent = trophy.name;
-  panel.appendChild(title);
-
-  const official = document.createElement("p");
+  const heading = document.createElement("h2");
+  heading.textContent = "Trophy guide";
+  const official = document.createElement("div");
   official.className = "official";
-  official.textContent = "Official: “" + trophy.description + "”";
-  panel.appendChild(official);
-
-  const warn = document.createElement("p");
-  if (trophy.missable) {
-    warn.className = "missable-warning";
-    warn.textContent = "⚠ Missable: " + trophy.missableWhy;
-  } else {
-    warn.className = "missable-safe";
-    warn.textContent = "Not missable: " + trophy.missableWhy;
-  }
-  panel.appendChild(warn);
-
-  const facts = document.createElement("p");
-  facts.className = "detail-facts";
-  const factBits = [];
-  if (trophy.chapter) factBits.push("Chapter: " + trophy.chapter);
-  if (trophy.mission) factBits.push("Mission: " + trophy.mission);
-  if (trophy.count) factBits.push("Target: " + trophy.count);
-  factBits.push("Roadmap stage: " + trophy.roadmapStage + " of 6");
-  facts.textContent = factBits.join(" · ");
-  panel.appendChild(facts);
-
+  const name = document.createElement("h3");
+  name.textContent = spoilerHides(trophy, state) ? "Hidden story trophy" : trophy.name;
+  const desc = document.createElement("p");
+  desc.textContent = spoilerHides(trophy, state) ? "Hidden until earned (spoiler-safe mode)." : trophy.description;
+  const meta = document.createElement("p");
+  meta.textContent = `Grade: ${trophy.grade} · Kind: ${trophy.kind} · Stage ${trophy.roadmapStage}` +
+    (trophy.chapter ? ` · ${trophy.chapter}` : "") + (trophy.mission ? ` · Mission: ${trophy.mission}` : "") +
+    (trophy.count ? ` · Tracked count: ${trophy.count.toLocaleString()}` : "") + (trophy.hidden ? " · Hidden on PlayStation" : "");
+  official.append(name, desc, meta);
   const guideHeading = document.createElement("h3");
-  guideHeading.textContent = "How to earn it";
-  panel.appendChild(guideHeading);
+  guideHeading.textContent = "Guide (own words)";
   const guide = document.createElement("p");
-  guide.className = "guide-text";
+  guide.className = "guideText";
   guide.textContent = trophy.guide;
-  panel.appendChild(guide);
-
+  detailEl.append(heading, official, guideHeading, guide);
+  if (trophy.missable) {
+    const warn = document.createElement("p");
+    warn.className = "warn";
+    warn.textContent = `⚠ Missable — do not miss: ${trophy.missableWhy}`;
+    detailEl.appendChild(warn);
+  }
   const sourcesHeading = document.createElement("h3");
-  sourcesHeading.textContent = "Sources — where this guide comes from";
-  panel.appendChild(sourcesHeading);
-  const sources = document.createElement("ul");
-  sources.className = "sources";
+  sourcesHeading.textContent = "Sources";
+  const list = document.createElement("ul");
+  list.className = "sources";
   for (const source of trophy.sources || []) {
-    const li = document.createElement("li");
+    const item = document.createElement("li");
     const link = document.createElement("a");
     link.href = source.url;
     link.textContent = source.name;
     link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    li.appendChild(link);
-    sources.appendChild(li);
+    link.rel = "noopener";
+    item.appendChild(link);
+    list.appendChild(item);
   }
-  panel.appendChild(sources);
-
-  const row = document.createElement("div");
-  row.className = "earned-row";
-  const label = document.createElement("label");
-  const check = document.createElement("input");
-  check.type = "checkbox";
-  check.checked = isEarned(state, trophy.id);
-  check.addEventListener("change", () => handlers.onToggle(trophy.id, check.checked));
-  label.appendChild(check);
-  const span = document.createElement("span");
-  span.textContent = isEarned(state, trophy.id) ? "Earned — ticked off" : "Mark as earned";
-  label.appendChild(span);
-  row.appendChild(label);
-  panel.appendChild(row);
+  detailEl.append(sourcesHeading, list);
+  const earnedLabel = document.createElement("label");
+  earnedLabel.className = "check";
+  const box = document.createElement("input");
+  box.type = "checkbox";
+  box.checked = Boolean(state.earned[trophy.id]);
+  box.addEventListener("change", () => onToggle(trophy.id, box.checked));
+  earnedLabel.append(box, document.createTextNode(" Earned"));
+  detailEl.appendChild(earnedLabel);
 }
